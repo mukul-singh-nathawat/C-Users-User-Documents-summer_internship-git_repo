@@ -1,7 +1,7 @@
 occupation = ['government','business']
 ocup = input("enter occupation : ")
 if ocup not in occupation:
-    print("bhag gareeb")
+    print("loan can not be granteed")
 else:
     if ocup == 'government':
         print("submit your documentation")
